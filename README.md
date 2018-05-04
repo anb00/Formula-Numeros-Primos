@@ -1,2 +1,2 @@
-# Formula-Numeros-Primos
-Ejercicio de Números primos
+# LLM--Tasca0.2-C-lcul-de-nombres-primers
+Càlcul de nombres primers

@@ -1,0 +1,198 @@
+html {}
+
+body {
+    background-color: rgb(77, 221, 165);
+    /* rgb(214, 249, 199); */
+    color: white;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+#tituloPrincipal {
+    position: relative;
+    margin-left: 420px;
+    border: 0.7px solid white;
+    border-radius: 0px solid transparent;
+    background-color: steelblue;
+    font-size: 35px;
+    color: rgb(2, 216, 199);
+    height: 90px;
+    font-family: A;
+    text-shadow: 1px 3px 2px rgb(2, 3, 4);
+    font-weight: 990;
+}
+
+#titulolateral {
+    font-family: BananasPersonalUse;
+}
+
+
+
+#tituloPrincipal:hover {
+    border: 0.8px solid red;
+    height: 90px;
+    border-radius: 0px solid transparent;
+    background-color: white;
+    font-size: 35px;
+    color: mediumseagreen;
+    font-family: A;
+    text-shadow: 1px 3px 2px rgb(2, 3, 4);
+    font-weight: 990;
+}
+
+input {
+    background-color: black;
+    color: lime;
+}
+
+select {
+    background-color: black;
+}
+
+.tabla2 {
+    background-color: transparent;
+}
+
+button
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  padding: 10px 20px;
+  border: 2px solid #000;
+  cursor: pointer;
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background:-webkit-linear-gradient(top, #a3a3a3, #000);
+  background:-moz-linear-gradient(top, #a3a3a3, #000);
+  background: linear-gradient(top, #a3a3a3, #000);
+
+  -webkit-box-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+  -moz-box-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+  box-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+button:hover
+{
+  background: -webkit-linear-gradient(top, #acc7a3, #506651);
+  background: -moz-linear-gradient(top, #acc7a3, #506651);
+  background: linear-gradient(top, #acc7a3, #506651);
+}
+button:active
+{
+  background: -webkit-linear-gradient(top, #858565, #c5c9a9);
+  background: -moz-linear-gradient(top, #858565, #c5c9a9);
+  background: linear-gradient(top, #858565, #c5c9a9);
+  }
+
+@import url('http://twitter.github.com/bootstrap/assets/css/bootstrap.css');
+.container-fluid {
+    margin-top: 10px;
+}
+
+.super {
+    width: 65%;
+    margin-left: 25px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+table {
+    color: black;
+    background-color: coral;
+    text-decoration: bold;
+    border-radius: 1px;
+    font-weight: bold;
+    height: 100px;
+    position: center;
+    margin-left: 25%;
+    text-align: center;
+    border: 0px solid double #13ff64;
+}
+
+td {
+    border: 0px solid #dddddd;
+    line-height: 30px;
+    height: 25px;
+    background-color: white;
+    left: 25px;
+}
+
+
+
+#results {
+    font-weight: 300;
+    text-decoration: bold;
+    font-stretch: all;
+}
+
+
+.page {
+    background: steelblue;
+    border: 5px solid #785b37;
+    border-radius: 10px;
+    color: #222;
+    margin-top: 15%;
+    margin-left: 21%;
+    padding: 0 30px 25px;
+    width: 740px;
+}
+
+.pagetitle {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    color: #f5ac23;
+    font-family: 'A';
+    font-size: 29px;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 52px;
+    line-height: 50px;
+    margin: 10 auto;
+    position: relative;
+    text-align: justify-all;
+    text-shadow: 1px 1px 1px #303030, 0 0 6px #ffdE00;
+    top: -10px;
+    width: 247px;
+    z-index: 9;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+footer {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 20px;
+    background-color: steelblue;
+    margin-left: -10px;
+    text-align: center;
+}
